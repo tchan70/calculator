@@ -1,4 +1,5 @@
 console.log('Welcome to the caculator!');
+console.log('Please only use numbers and the basic computer operators, no fancy ones.')
 const readline = require('readline-sync');
 console.log('Please enter your operator:');
 const operator = readline.prompt();
